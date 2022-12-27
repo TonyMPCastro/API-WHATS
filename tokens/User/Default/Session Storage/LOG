@@ -1,3 +1,2 @@
-2022/09/12-17:47:20.087 3da8 Reusing MANIFEST C:\app_www\tokens\User\Default\Session Storage/MANIFEST-000001
-2022/09/12-17:47:20.088 3da8 Recovering log #3
-2022/09/12-17:47:20.089 3da8 Reusing old log C:\app_www\tokens\User\Default\Session Storage/000003.log 
+2022/12/27-12:06:18.965 4c Creating DB C:\Projetos\API-WHATS\tokens\User\Default\Session Storage since it was missing.
+2022/12/27-12:06:18.972 4c Reusing MANIFEST C:\Projetos\API-WHATS\tokens\User\Default\Session Storage/MANIFEST-000001

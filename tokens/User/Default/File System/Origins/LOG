@@ -1,3 +1,2 @@
-2022/09/12-17:47:16.749 264c Reusing MANIFEST C:\app_www\tokens\User\Default\File System\Origins/MANIFEST-000001
-2022/09/12-17:47:16.750 264c Recovering log #3
-2022/09/12-17:47:16.750 264c Reusing old log C:\app_www\tokens\User\Default\File System\Origins/000003.log 
+2022/12/27-12:06:21.703 2dfc Creating DB C:\Projetos\API-WHATS\tokens\User\Default\File System\Origins since it was missing.
+2022/12/27-12:06:21.709 2dfc Reusing MANIFEST C:\Projetos\API-WHATS\tokens\User\Default\File System\Origins/MANIFEST-000001

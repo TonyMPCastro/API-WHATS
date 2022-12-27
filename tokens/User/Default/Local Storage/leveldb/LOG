@@ -1,3 +1,2 @@
-2022/09/12-17:47:15.855 3bb0 Reusing MANIFEST C:\app_www\tokens\User\Default\Local Storage\leveldb/MANIFEST-000001
-2022/09/12-17:47:15.884 3bb0 Recovering log #16
-2022/09/12-17:47:15.891 3bb0 Reusing old log C:\app_www\tokens\User\Default\Local Storage\leveldb/000016.log 
+2022/12/27-12:06:18.327 386c Creating DB C:\Projetos\API-WHATS\tokens\User\Default\Local Storage\leveldb since it was missing.
+2022/12/27-12:06:18.335 386c Reusing MANIFEST C:\Projetos\API-WHATS\tokens\User\Default\Local Storage\leveldb/MANIFEST-000001
