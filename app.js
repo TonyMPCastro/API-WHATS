@@ -27,36 +27,36 @@ venom
     client.onMessage((message) => {
         if (saudacoes.includes(message.body) && message.isGroupMsg === false) {
 
-           client.sendText(message.from, '🏷️✉️🎁 Identificamos que terminou o seu teste!🖥️📺\nMas não se preocupe temos planos especiais para você!\n'
-          +'Planos que vão te garantir a melhor grade de canais do Brasil 🇧🇷 !!\nEscolha agora a melhor opção para você:'
-          +'\n *M* -> *Mensal : R$ 29,90* 💵🪙💸'
-          +'\n *T* -> *Trimestral : R$ 59,90* 💵🪙💸'
-          +'\n *A*-> *Anual : R$ 119,90* 🪙💸'
-          +'\nAgora é só aproveitar! 🎉\n E turbinar sua Tv 🖥️📺🚀'
-          +'\n\nQual a melhor opção para você?')
-            .then((result) => {
-              console.log('Result: ', result); //return object success
-            })
-            .catch((erro) => {
-              console.error('Error when sending: ', erro); //return object error
-            });
-          
-          // client
-          //   .sendText(message.from, '🎉Bem vindo(a)!🎉  \nSou Antony!🤖 \nUm Robo pessoal, em treinamento!'+
-          //   '\nPara melhor atende-lô pedirei que escolha uma das opções ou que digite de maneira breve e sucinta seu questionamento!'
-          //   +'\n\nEscolha uma opção de *Assunto*:'
-          //   +'\n*1* - Pessoal'
-          //   +'\n*2* - Trabalho'
-          //   +'\n*3* - Faculdade'
-          //   +'\n*4* - Trabalho não Programado'
-          //   +'\n*5* - Orçamento'
-          //   +'\n*6* - Cobrança')
+          //  client.sendText(message.from, '🏷️✉️🎁 Identificamos que terminou o seu teste!🖥️📺\nMas não se preocupe temos planos especiais para você!\n'
+          // +'Planos que vão te garantir a melhor grade de canais do Brasil 🇧🇷 !!\nEscolha agora a melhor opção para você:'
+          // +'\n *M* -> *Mensal : R$ 29,90* 💵🪙💸'
+          // +'\n *T* -> *Trimestral : R$ 59,90* 💵🪙💸'
+          // +'\n *A*-> *Anual : R$ 119,90* 🪙💸'
+          // +'\nAgora é só aproveitar! 🎉\n E turbinar sua Tv 🖥️📺🚀'
+          // +'\n\nQual a melhor opção para você?')
           //   .then((result) => {
           //     console.log('Result: ', result); //return object success
           //   })
           //   .catch((erro) => {
           //     console.error('Error when sending: ', erro); //return object error
           //   });
+          
+          client
+            .sendText(message.from, '🎉Bem vindo(a)!🎉  \nSou Antony!🤖 \nUm Robo pessoal, em treinamento!'+
+            '\nPara melhor atende-lô pedirei que escolha uma das opções ou que digite de maneira breve e sucinta seu questionamento!'
+            +'\n\nEscolha uma opção de *Assunto*:'
+            +'\n*1* - Pessoal'
+            +'\n*2* - Trabalho'
+            +'\n*3* - Faculdade'
+            +'\n*4* - Trabalho não Programado'
+            +'\n*5* - Orçamento'
+            +'\n*6* - Cobrança')
+            .then((result) => {
+              console.log('Result: ', result); //return object success
+            })
+            .catch((erro) => {
+              console.error('Error when sending: ', erro); //return object error
+            });
         }
 
 
